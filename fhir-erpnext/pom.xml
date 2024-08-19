@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright © 2024, Ozone HIS <info@ozone-his.com>
+
+    This Source Code Form is subject to the terms of the Mozilla Public
+    License, v. 2.0. If a copy of the MPL was not distributed with this
+    file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+-->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
@@ -11,6 +20,19 @@
   <artifactId>fhir-erpnext</artifactId>
   <name>FHIR ERPNext Facade</name>
   <description>FHIR ERPNext Facade</description>
+
+  <distributionManagement>
+    <repository>
+      <id>mks-nexus-public-releases</id>
+      <name>Mekom Solutions Nexus repo for releases</name>
+      <url>https://nexus.mekomsolutions.net/repository/maven-releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>mks-nexus-public-snapshots</id>
+      <name>Mekom Solutions Nexus repo for snapshots</name>
+      <url>https://nexus.mekomsolutions.net/repository/maven-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
