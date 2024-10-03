@@ -14,7 +14,6 @@
     <groupId>com.ozonehis.fhir</groupId>
     <artifactId>fhir-erpnext-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <relativePath/>
   </parent>
 
   <artifactId>fhir-erpnext</artifactId>
@@ -49,18 +48,20 @@
       <artifactId>fhir-structures-backport-r4</artifactId>
       <version>${fhir.structures.backport-r4.version}</version>
     </dependency>
-
     <dependency>
       <groupId>com.ozonehis.camel</groupId>
       <artifactId>camel-frappe-api</artifactId>
       <version>${camel.frappe.version}</version>
     </dependency>
-
     <dependency>
       <groupId>com.ozonehis</groupId>
       <artifactId>erpnext-fhir-mapper</artifactId>
       <version>${ERPNextFHIRMapper.version}</version>
     </dependency>
+    <dependency>
+      <groupId>jakarta.validation</groupId>
+      <artifactId>jakarta.validation-api</artifactId>
+      <version>3.0.2</version>
+    </dependency>
   </dependencies>
-
 </project>
