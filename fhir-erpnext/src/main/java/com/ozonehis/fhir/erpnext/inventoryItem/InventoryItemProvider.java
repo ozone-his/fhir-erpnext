@@ -11,11 +11,11 @@ import ca.uhn.fhir.rest.annotation.IdParam;
 import ca.uhn.fhir.rest.annotation.Read;
 import ca.uhn.fhir.rest.server.IResourceProvider;
 import ca.uhn.fhir.rest.server.exceptions.ResourceNotFoundException;
-import com.ozonehis.fhir.InventoryItem;
 import com.ozonehis.fhir.annotations.ERPNextFhirProvider;
 import jakarta.annotation.Nonnull;
 import org.hl7.fhir.instance.model.api.IBaseResource;
 import org.hl7.fhir.r4.model.IdType;
+import org.openmrs.fhir.InventoryItem;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @ERPNextFhirProvider

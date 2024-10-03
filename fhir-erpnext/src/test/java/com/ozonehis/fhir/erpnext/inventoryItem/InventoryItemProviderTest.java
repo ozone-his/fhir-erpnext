@@ -13,7 +13,6 @@ import static org.mockito.Mockito.when;
 import static org.mockito.MockitoAnnotations.openMocks;
 
 import ca.uhn.fhir.rest.server.exceptions.ResourceNotFoundException;
-import com.ozonehis.fhir.InventoryItem;
 import java.util.Optional;
 import org.hl7.fhir.r4.model.IdType;
 import org.junit.jupiter.api.AfterAll;
@@ -21,6 +20,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
+import org.openmrs.fhir.InventoryItem;
 
 class InventoryItemProviderTest {
 
