@@ -7,12 +7,12 @@
  */
 package com.ozonehis.fhir.erpnext.inventoryItem;
 
-import com.ozonehis.fhir.InventoryItem;
 import com.ozonehis.fhir.erpnext.mappers.CodeMapper;
 import com.ozonehis.fhir.erpnext.mappers.ToFhirMapping;
 import com.ozonehis.fhir.erpnext.model.Item;
 import java.util.List;
 import org.hl7.fhir.r4.model.Quantity;
+import org.openmrs.fhir.InventoryItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

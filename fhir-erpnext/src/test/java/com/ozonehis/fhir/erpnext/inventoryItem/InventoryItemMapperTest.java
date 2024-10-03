@@ -10,11 +10,11 @@ package com.ozonehis.fhir.erpnext.inventoryItem;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-import com.ozonehis.fhir.InventoryItem;
 import com.ozonehis.fhir.erpnext.mappers.CodeMapper;
 import com.ozonehis.fhir.erpnext.model.Item;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.openmrs.fhir.InventoryItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 

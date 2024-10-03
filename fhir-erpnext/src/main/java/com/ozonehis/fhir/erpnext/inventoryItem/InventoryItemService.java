@@ -11,12 +11,12 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.ozonehis.camel.frappe.sdk.api.FrappeClient;
 import com.ozonehis.camel.frappe.sdk.api.FrappeResponse;
 import com.ozonehis.eip.model.erpnext.FrappeSingularDataWrapper;
-import com.ozonehis.fhir.InventoryItem;
 import com.ozonehis.fhir.erpnext.model.Item;
 import jakarta.validation.constraints.NotNull;
 import java.io.IOException;
 import java.util.Optional;
 import org.apache.hc.core5.http.HttpStatus;
+import org.openmrs.fhir.InventoryItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

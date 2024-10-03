@@ -18,7 +18,6 @@ import com.ozonehis.camel.frappe.sdk.api.FrappeClient;
 import com.ozonehis.camel.frappe.sdk.api.FrappeResponse;
 import com.ozonehis.camel.frappe.sdk.api.operation.GetOperation;
 import com.ozonehis.eip.model.erpnext.FrappeSingularDataWrapper;
-import com.ozonehis.fhir.InventoryItem;
 import com.ozonehis.fhir.erpnext.model.Item;
 import java.util.Optional;
 import org.apache.hc.core5.http.HttpStatus;
@@ -27,6 +26,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
+import org.openmrs.fhir.InventoryItem;
 
 class InventoryItemServiceTest {
 
